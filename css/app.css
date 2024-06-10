@@ -907,3 +907,26 @@ max-width: 129px;
 .referals-block-btn-copy.copied{
 	background: #efebff;
 }
+
+.profile-input-info{
+	width:100%;
+	background: #15192f;
+	color:#fff;
+	font-size: 13px;
+	height: 40px;
+	padding-left: 15px;
+	display:flex;
+	align-items: center;
+	border-radius: 12px;
+	margin-bottom:20px;
+}
+
+
+.profile-page-block{
+	display:none;
+}
+
+.profile-page-block.active{
+	display:block;
+}
+
