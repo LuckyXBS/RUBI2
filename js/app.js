@@ -16,6 +16,18 @@ $(function(){
 		$('.more-tab-li').removeClass('active');
 		$('.more-page-block').removeClass('active');
 	});
+	$('.header-profile-name').click(function(event) {
+		$('.profile-page-block').addClass('active');
+		$('.home-tab-li').removeClass('active');
+		$('.pay-tab-li').removeClass('active');
+		$('.bonus-tab-li').removeClass('active');
+		$('.home-page-block').removeClass('active');
+		$('.history-page-block').removeClass('active');
+		$('.payment-page-block').removeClass('active');
+		$('.bonus-page-block').removeClass('active');
+		$('.more-tab-li').removeClass('active');
+		$('.more-page-block').removeClass('active');
+	});
 	$('.home-tab-li').click(function(event) {
 		$('.profile-page-block').removeClass('active');
 		$('.home-tab-li').addClass('active');
