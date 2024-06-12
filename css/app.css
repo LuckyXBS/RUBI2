@@ -930,3 +930,63 @@ max-width: 129px;
 	display:block;
 }
 
+.deposit-system-btn{
+	display: block;
+    width: 100%;
+    height: 40px;
+	font-size: 13px;
+	font-weight: 700;
+	cursor: pointer;
+	color:#fff;
+    border-radius: 10px;
+	--2410b24e: linear-gradient(267.95deg, #00a3ff 0%, #0047ff 100%);
+    margin-bottom: 12px;
+    background: var(--2410b24e);
+}
+	
+.deposit-system-icon{
+	width: 17.5px;
+	height: auto;
+	pointer-events: none;
+}
+.deposit-system-input{
+	width:100%;
+	display: flex;
+	align-items: center;
+	border-radius: 12px;
+	background: #15192f;
+	color:#fff;
+	font-size: 13px;
+	height: 50px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+	
+.deposit-system-item{
+	width:100%;
+	display: flex;
+	align-items: center;
+	border-radius: 12px;
+	background: #15192f;
+	color:#fff;
+	font-size: 13px;
+	height: 50px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+.deposit-system-name{
+	font-size: 15px;
+	font-weight: 700;
+}
+.deposit-system-sub{
+	font-size: 12px;
+	opacity: .7;
+}
+
+.deposit-page-block{
+	display:none;
+}
+
+.deposit-page-block.active{
+	display:block;
+}
