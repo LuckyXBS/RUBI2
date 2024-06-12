@@ -48,6 +48,7 @@
 <div class="wallet-separator"></div>
 
 <div class="deposit-system-item">
+	
 <img src='img/sbp.svg' class="deposit-system-icon">
 <div style='margin-left: 10px;'>
 <div class="deposit-system-name">
@@ -60,12 +61,40 @@
 	
 </div>
 
+<input class="deposit-system-input" type="number" min="100" max="5000" value="1000" placeholder="1000">
+
+<button class="deposit-system-btn">Пополнить</button>
+	
 <style>
+
+.deposit-system-btn{
+	display: block;
+    width: 100%;
+    height: 40px;
+	font-weight: 700;
+	cursor: pointer;
+	color:#fff;
+    border-radius: 10px;
+}
+	
 .deposit-system-icon{
 	width: 17.5px;
 	height: auto;
 	pointer-events: none;
 }
+.deposit-system-input{
+	width:100%;
+	display: flex;
+	align-items: center;
+	border-radius: 12px;
+	background: #15192f;
+	color:#fff;
+	font-size: 13px;
+	height: 50px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+	
 .deposit-system-item{
 	width:100%;
 	display: flex;
