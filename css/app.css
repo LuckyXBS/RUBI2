@@ -1033,3 +1033,13 @@ max-width: 129px;
 	color:#fff;
 	margin-left: auto;
 }
+
+.withdraw-page-block{
+	display:none;
+}
+
+.withdraw-page-block.active{
+	display:block;
+}
+
+
