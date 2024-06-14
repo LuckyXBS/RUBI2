@@ -9,8 +9,14 @@ $(function(){
 		$('.payment-page-block').removeClass('active');
 		$('.deposit-page-block').addClass('active');
 	});
+	$('.withdraw-payment-btn-pb').click(function(event) {
+		$('.tabs-li-item').removeClass('active');
+		$('.payment-page-block').removeClass('active');
+		$('.withdraw-page-block').addClass('active');
+	});
 	$('.header-profile').click(function(event) {
 		$('.profile-page-block').addClass('active');
+		$('.withdraw-page-block').removeClass('active');
 		$('.deposit-page-block').removeClass('active');
 		$('.home-tab-li').removeClass('active');
 		$('.pay-tab-li').removeClass('active');
@@ -24,6 +30,7 @@ $(function(){
 	});
 	$('.header-profile-name').click(function(event) {
 		$('.profile-page-block').addClass('active');
+		$('.withdraw-page-block').removeClass('active');
 		$('.deposit-page-block').removeClass('active');
 		$('.home-tab-li').removeClass('active');
 		$('.pay-tab-li').removeClass('active');
@@ -37,6 +44,7 @@ $(function(){
 	});
 	$('.home-tab-li').click(function(event) {
 		$('.profile-page-block').removeClass('active');
+		$('.withdraw-page-block').removeClass('active');
 		$('.deposit-page-block').removeClass('active');
 		$('.home-tab-li').addClass('active');
 		$('.pay-tab-li').removeClass('active');
@@ -51,6 +59,7 @@ $(function(){
 	$('.pay-tab-li').click(function(event) {
 		$('.profile-page-block').removeClass('active');
 		$('.deposit-page-block').removeClass('active');
+		$('.withdraw-page-block').removeClass('active');
 		$('.home-tab-li').removeClass('active');
 		$('.pay-tab-li').addClass('active');
 		$('.bonus-tab-li').removeClass('active');
@@ -63,6 +72,7 @@ $(function(){
 	});
 	$('.bonus-tab-li').click(function(event) {
 		$('.profile-page-block').removeClass('active');
+		$('.withdraw-page-block').removeClass('active');
 		$('.deposit-page-block').removeClass('active');
 		$('.home-tab-li').removeClass('active');
 		$('.pay-tab-li').removeClass('active');
@@ -78,6 +88,7 @@ $(function(){
 		$('.profile-page-block').removeClass('active');
 		$('.deposit-page-block').removeClass('active');
 		$('.home-tab-li').removeClass('active');
+		$('.withdraw-page-block').removeClass('active');
 		$('.more-tab-li').addClass('active');
 		$('.pay-tab-li').removeClass('active');
 		$('.bonus-tab-li').removeClass('active');
